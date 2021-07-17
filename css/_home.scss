@@ -1,0 +1,49 @@
+.home{
+    overflow-x: hidden;
+
+    .home-slider{
+
+        .slide-box{
+            width:100%;
+            height: 100vh;
+
+            .slide{
+                width:100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+
+                .content{
+                    position: absolute;
+                    margin-top: 300px;
+                    width:50%;
+                    padding-left: 20%;
+
+                    .offer{
+                        font-size: 2.6rem;
+                        color: #666;
+                    }
+
+                    h3{
+                        font-size: 5rem;
+                        color: #333;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .slide-1{
+               background-image: url('../images/slider1.jpg');
+            }
+
+            .slide-2{
+               background-image: url('../images/slider2.jpg');
+            }
+
+            .slide-3{
+                background-image: url('../images/slider3.jpg');
+            }
+        }
+    }
+}

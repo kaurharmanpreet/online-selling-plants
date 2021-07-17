@@ -1,0 +1,61 @@
+.footer{
+    margin-top: 70px;
+    width:100%;
+    background-color: $green;
+
+    .footer-part{
+        padding:3rem 5%;
+
+        .part{
+            width:25%;
+            text-align: center;
+            
+            h2{
+               font-size: 2.3rem;
+               color: #fff;
+               text-decoration:underline;
+               text-decoration-color: yellow;
+               text-underline-offset: 0.7rem;
+            }
+
+            p{
+               margin-top: 35px;
+               color: #eee;
+               font-size: 1.1rem;
+               line-height: 27px;
+            }
+
+            ul{
+                margin-top: 35px;
+
+                li{
+                  color: #eee;
+                  margin-bottom: 30px;
+                  font-size: 1.3rem;
+                }
+
+                a{
+                    color: #eee;
+                }
+            }
+        }
+    }
+
+    .copy-right{
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+        border-top: 1px solid #fff;
+        padding:1rem 0;
+
+        p{
+            color: #fff;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+
+        .name-color{
+            color: yellow;
+        }
+    }
+}

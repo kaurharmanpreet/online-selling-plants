@@ -1,0 +1,75 @@
+
+
+
+.deal{
+    margin-top: 70px;
+    padding:0 1rem 0 1rem;
+
+    .two-parts{
+
+        .left-part{
+            width:48%;
+
+            h2{
+               font-size: 2.5rem;
+               margin: 40px 0 20px 0;
+               color: #333;
+            }
+
+            p{
+               font-size: 1.2rem;
+               line-height: 30px;
+               color: #666;
+            }
+
+            .counter{
+                margin: 40px 0;
+
+                .box{
+                    width:22%;
+                    border:1px solid rgba(0,0,0,0.3);
+                    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+                    padding :1rem 0 0 0;
+                    text-align: center;
+
+                    h4{
+                        font-size: 3rem;
+                        color: #333;
+                        margin-bottom: 10px;
+                    }
+
+                    .background{
+                        font-size:1.5rem;
+                        background-color: #666;
+                        color: #fff;
+                        display: block;
+                        width:100%;
+                        padding:0.5rem 0;
+                    }
+                }
+            }
+
+        }
+
+        .right-part{
+            width:48%;
+            padding-top: 100px;
+
+            img{
+               width:100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

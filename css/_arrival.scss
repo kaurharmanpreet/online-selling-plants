@@ -1,0 +1,50 @@
+.arrivals{
+
+    .arrivals-parts{
+        margin-top: 70px;
+        padding:0 1rem 0 1rem;
+
+        .arrival-part{
+            width:49%;
+            border: 2px solid rgba(0,0,0,0.3);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+            cursor: pointer;
+            position: relative;
+            overflow:hidden;
+
+            .image{
+                height: 300px;
+        
+                img{
+                   width:100%;
+                   height: 100%;
+                   transition: .5s linear;
+                }
+
+                .content{
+                    position: absolute;
+                    top:100px;
+                    left:4%;
+
+                    .top{
+                       color:#666;
+                       font-size: 1.4rem;
+                       font-weight: 700;
+                    }
+
+                    h2{
+                       color:#333;
+                       font-size: 2rem;
+                       letter-spacing: 2px;
+                       margin-bottom: 25px;
+                    }
+
+                }
+            }
+            .image:hover img{
+                transform: scale(1.1) rotate(-2deg);
+            }
+           
+        }
+    }
+}

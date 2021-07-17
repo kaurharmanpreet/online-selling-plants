@@ -1,0 +1,46 @@
+.icons{
+    margin-top: 70px;
+    padding:0 1rem 0 1rem;
+
+    .four-icons{
+
+        .icon{
+            width:22%;
+
+            .image{
+
+                width:25%;
+
+                img{
+                   width:100%;
+                }
+
+            }
+
+            .icon-content{
+                width:75%;
+                padding-left: 14px;
+
+                h2{
+                   font-size: 1.7rem;
+                   color: $green;
+                }
+
+                p{
+                    font-size: 1.1rem;
+                   color: #666;
+                }
+            }
+        }
+
+        .icon2,
+        .icon3{
+            width:26%;
+
+            .icon-content{
+             padding-left: 14px;
+
+            }
+        }
+    }
+}
